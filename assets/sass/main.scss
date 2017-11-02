@@ -589,3 +589,107 @@ header {
     }
   }
 }
+///////////////////////////sneakers section/////////////////
+.sneakers {
+  height: 1122px;
+  // background: lightgreen;
+  position: relative;
+  .background-text {
+    color: #F4F4F4;
+    font-size: 170px;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+    position: absolute;
+    top: 110px;
+    right: 0;
+  }
+  .main-picture {
+    width: 700px;
+    height: 700px;
+    background: grey;
+    position: relative;
+    top: 200px;
+    left: 0px;
+    img {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+    }
+    .black-square{
+      background: rgba(0, 0, 0, 0.6);
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+    }
+    button {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      padding: 20px 40px;
+      color: white;
+      background: red;
+      border: none;
+      position: absolute;
+      top: 363px;
+      left: 201px;
+    }
+  }
+  .collections {
+    // background: green;
+    width: 872px;
+    position: absolute;
+    top: 250px;
+    left: 476px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    // align-items: flex-start;
+    flex-wrap: wrap;
+    .square {
+      // background: lightgrey;
+      width: 390px;
+      height: 250px;
+      margin: 23px;
+      position: relative;
+      img {
+        width: 100%;
+        height: 100%;
+        }
+        p {
+          width: 100%;
+          background: rgba(169, 151, 85, 0.6);
+          color: white;
+          letter-spacing: 2px;
+          text-transform: uppercase;
+          padding: 10px;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+        }
+        .fa {
+          color: white;
+          position: absolute;
+          bottom: 10px;
+          right: 10px;
+        }
+      }
+    &.nike {
+      width: 100%;
+      height: 100%;
+      }
+    &.adidas {
+      width: 100%;
+      height: 100%;
+      }
+    &.new-balance {
+      width: 100%;
+      height: 100%;
+      }
+    &.puma {
+      width: 100%;
+      height: 100%;
+      }
+  }
+}
