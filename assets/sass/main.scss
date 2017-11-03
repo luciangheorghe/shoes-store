@@ -797,3 +797,75 @@ header {
     left: 50%;
   }
 }
+///////////////////////////footer///////////////
+footer {
+  background: #111;
+  height: 536px;
+  position: relative;
+  h3 {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 23px;
+    font-size: 160px;
+    position: absolute;
+    top: -22px;
+    left: 0;
+  }
+  .info {
+    // background: yellow;
+    // height: 100px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 30px;
+    .left-side {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      .address {
+        color: #898989;
+        font-size: 9px;
+        text-transform: uppercase;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        li {
+          padding: 20px 10px 65px 10px;
+        }
+      }
+      .social-media {
+        color: #898989;
+        font-size: 9px;
+        text-transform: uppercase;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        li {
+          padding: 20px 10px 65px 10px;
+        }
+      }
+    }
+    .right-side {
+      .menu {
+        color: #898989;
+        font-size: 9px;
+        text-transform: uppercase;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        li {
+          padding: 20px 10px 65px 10px;
+        }
+      }
+    }
+  }
+}
