@@ -592,7 +592,6 @@ header {
 ///////////////////////////sneakers section/////////////////
 .sneakers {
   height: 1122px;
-  // background: lightgreen;
   position: relative;
   .background-text {
     color: #F4F4F4;
@@ -637,7 +636,6 @@ header {
     }
   }
   .collections {
-    // background: green;
     width: 872px;
     position: absolute;
     top: 250px;
@@ -645,10 +643,8 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    // align-items: flex-start;
     flex-wrap: wrap;
     .square {
-      // background: lightgrey;
       width: 390px;
       height: 250px;
       margin: 23px;
@@ -691,5 +687,113 @@ header {
       width: 100%;
       height: 100%;
       }
+  }
+}
+////////////////////////////apparel//////////////////
+#apparel {
+  // background: lightgreen;
+  height: 1384px;
+  position: relative;
+  .background-text {
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-size: 170px;
+    color: #F4F4F4;
+    position: absolute;
+    top: 135px;
+    left: 0;
+  }
+  .grey-square {
+    background: #F4F4F4;
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+  }
+  .central-position {
+    // background: yellow;
+    height: 590px;
+    width: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+    .left-side {
+      // background: green;
+      width: 600px;
+      height: 590px;
+      margin: 11px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      .img-1 {
+        // background: white;
+        width: 590px;
+        height: 285px;
+        margin: 5px;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .img-2 {
+        // background: white;
+        width: 290px;
+        height: 285px;
+        margin: 5px;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .img-3 {
+        // background: white;
+        width: 290px;
+        height: 285px;
+        margin: 5px;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+    .right-side {
+      background: white;
+      width: 352px;
+      height: 590px;
+      margin: 11px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      p{
+        text-transform: uppercase;
+        line-height: 1.5;
+        letter-spacing: 2px;
+        margin-top: 20px;
+        text-align: center;
+      }
+      img {
+        margin-top: 80px;
+        width: 80%;
+        height: 70%;
+      }
+    }
+  }
+  button {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding: 20px 40px;
+    color: white;
+    background: red;
+    border: none;
+    position: absolute;
+    bottom: 220px;
+    left: 50%;
   }
 }
